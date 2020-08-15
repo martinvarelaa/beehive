@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+*{
+    font-family: 'Alata';
+}
+
+body {
+    background-image: url(https://subtlepatterns.com/patterns/kindajean.png);
+    }
+    
+    .block {
+        display: block;
+        position: relative;
+        width: 295px;
+        border-radius: 5px;
+        background: #fff;
+        box-shadow:  6px 6px 6px 6px rgba(0, 0, 0, .2);
+    }
+    
+    .product {
+        display: block;
+        position: relative;
+    }
+    
+    .product img {
+        width: 100%;
+        
+        
+    }
+    
+    .info {
+        display: block;
+        position: relative;
+        padding: 20px;
+        color: black;
+    }
+
+    .row div {
+        margin: auto;
+        background: peru;
+        margin-bottom: 30px;
+
+
+    }
+
+    .container{
+
+        padding-top: 2rem;
+    }
+    .container div{
+
+        padding-top: 3rem;
+    }
+
+    .zoom{
+        transition: transform .1s;
+
+    }
+
+    .zoom:hover{
+        transform: scale(1.05);
+
+    }
+   
+
+    
+ 
+    
