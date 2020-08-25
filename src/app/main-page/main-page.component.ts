@@ -36,22 +36,21 @@ import {
  
 })
 export class MainPageComponent implements OnInit {
-
+  
   public isOpen: boolean = false;
+  
   
 
   constructor(
   ) {
-   
+     
    }
 
   
 
   ngOnInit(): void {
-    console.log('OK');
-   setTimeout(()=>{
-     this.isOpen = true;
-  }, 100)
+      setTimeout(()=>{this.isOpen = true;}, 100);
+   
     
   }
 
